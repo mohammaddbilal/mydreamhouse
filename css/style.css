@@ -1,0 +1,131 @@
+body{
+	margin:0; 
+	padding:0;
+}
+/*header starts*/
+header{
+	background-color: white;
+	/*border: 1px solid red;*/
+
+}
+.wrapper {
+	width: 85%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.logo {
+    width: 25%;
+    height: 61px;
+    float: left;
+    margin-top: 10px;
+}
+}
+.logo image{
+	width: 100%;
+}
+
+.menu {
+	margin-top: 30px;
+	width: 65%;
+	float: right;
+	text-transform: uppercase;
+}
+.menu ul{
+	margin-top: 0px;
+    list-style: none;
+}
+
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+    padding: 35px 21px;
+    text-transform: uppercase;
+}
+/*header ends*/
+/*banner start*/
+.banner{
+	background-image: url(../images/dreamhouse.png);
+	min-height: 550px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.b_content {
+	background-color: rgba(114,112,118,0.5);
+	width: 25%;
+	/*border: 1px solid red;*/
+	margin-bottom: 80px;
+	margin-top: 100px;
+	float: left;
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-weight: 100;
+	font-size: 30px;
+	color: white;
+	margin: 0;
+}
+.b_content h2{
+	font-family: sans-serif;
+	font-weight: 100;
+	font-size: 31px;
+	color: white;
+	margin: 0;
+}
+.b_content p{
+	font-family: sans-serif;
+	font-weight: 400;
+	color: white;
+    margin: 0;
+    line-height: 23px;
+}
+.b_content button {
+	background-color: #01020282;
+	color: white;
+	width: 135px;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-family: sans-serif;
+	border: 0;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: .3s;}
+.b_content button:hover {
+	color:#E0DBD8;
+}
+.b_content button:focus{
+	outline: 0;
+}
+/*banner end*/
+/*service1start*/
+.about{
+    background-color: white;
+    overflow: hidden;
+}
+.service1{
+    width: 28%;
+    border: 1px solid white;
+    float: left;
+    margin-left: 44px;
+}
+.service1 h2{
+    margin: 0px auto;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.service1 img{
+    margin: 0px auto;
+}
+.service p{
+
+}
+/*service1end*/
+footer img{
+	width: 100%;
+	height: 140px;
+}
